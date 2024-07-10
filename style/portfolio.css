@@ -76,3 +76,30 @@ padding: 80px 97px;
     justify-content: space-between;
     padding: 80px 97px;
 }
+
+.title{
+    margin: 151px auto;
+}
+
+
+/* Skills SEction  */
+
+
+.skill-container{
+    display: flex;
+    gap:30px;
+   
+}
+.skill{
+border-radius: 20px;
+text-align: center;
+}
+.skill-html{
+    background-color:#004CE8;
+}
+.skill-css{
+    background-color: #004CE8;
+}
+.skill-js{
+    background-color: #FFDF00;
+}
