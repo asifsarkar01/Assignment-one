@@ -10,10 +10,12 @@ body{
    max-width: 1440px;
    max-height: 652px;
 }
+img{
+    margin-top: 26px;
+}
 .banner-content{
     width:100%;
     height:auto;
-    margin-top: 26px;
     margin-bottom: 44px;
    display: flex;
    flex-direction: column;
@@ -29,4 +31,47 @@ body{
 padding: 21px 24px;
     border-radius: 8px;
     margin-bottom:44px;
+}
+
+/* main content  */
+
+.banner-section-container{
+    max-width: 1140px;
+    height:1392px;
+
+    background-color:#0D132105;
+    margin:0 auto;
+    
+    text-align: center;
+}
+.banner-section-content{
+display: flex;
+
+margin: 148px auto;
+padding: 80px 97px;
+}
+.banner-text-container{
+    width: 50%;
+    
+    height: 250px;
+
+}
+.btn-draw{
+    padding: 12px 20px;
+    border-radius: none;
+    border: 1px solid #999;
+    text-decoration: none;
+    color:black
+
+}
+
+.banner-image-container{
+    width: 50%;
+   
+    height: 250px;
+}
+
+.banner-section-content2 {
+    display: flex;
+    justify-content: space-between;
 }
